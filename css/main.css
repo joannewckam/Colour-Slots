@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    
+}
+#display{
+    border: 1px, solid black;
+    height: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lose-message{
+    display:none;
+    
+}
+#win-message{
+    display: none;
+}
