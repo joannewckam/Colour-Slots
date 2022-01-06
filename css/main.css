@@ -11,10 +11,11 @@ body {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    
 }
+
 .reel {
     border-radius: 5%;
+    border: 2px solid black;
 }
 .buttons{
     padding: 20px;
@@ -27,4 +28,13 @@ body {
 }
 #win-message{
     display: none;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+.coin-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
