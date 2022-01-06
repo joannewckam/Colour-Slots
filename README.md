@@ -41,13 +41,13 @@ GAME LOGIC:
 1. Three displays for the colour reels start blank
 2. User starts with 10 coins to play
 3. Click lever button to start
-    a. Display will randomly generate three colours
+    1. Display will randomly generate three colours
         i. Both buttons disabled until the last spin
-    b. Check to see if the 3 generated colours match
-        i. If the three colours match - display win message and win count goes up by 1
-        ii. If they do not match no message will display
-        iii. Coin count goes down by 1
+    2. Check to see if the 3 generated colours match
+        1. If the three colours match - display win message win count goes up by 1 and user gets +5 coins
+        2. If they do not match no message will display
+        3. Coin count goes down by 1
 3. User is able to continue clicking the lever until the coins run out
-    a. When coins reach 0 a message will display that they are out of tokens to play
-    b. The lever button is disabled to prompt user to click the reset button to start again
+    1. When coins reach 0 a message will display that user is out of tokens to play
+    2. The lever button is disabled to prompt user to click the reset button to start again
 4. Reset button returns to initial state of 10 coins, 0 wins and white display
