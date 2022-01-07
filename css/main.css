@@ -9,7 +9,7 @@ body {
 	background-color: #fff8f3;
 	color: #fa8072;
 }
-.container {
+.coin-win-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,11 +22,21 @@ body {
 	height: 200px;
 	width: auto;
 }
-#display {
+.display-container {
+	/* display: table;
+	display: block; */
+	display: inline-block;
+	overflow: scroll;
+	/* width: 300px; */
+	/* overflow-x: auto;
+	overflow-y: hidden; */
+}
+.display {
 	height: 200px;
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	word-break: break-all;
 }
 .reel {
 	border-radius: 10%;
@@ -58,10 +68,9 @@ button {
 	text-align: center;
 	text-decoration: none;
 }
-button:hover {
+button:enabled:hover {
 	background-color: #add8e6;
 }
 button:disabled {
-	background-color: #fff8f3;
 	cursor: auto;
 }

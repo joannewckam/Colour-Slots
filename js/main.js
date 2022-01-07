@@ -58,11 +58,9 @@ function handleReset() {
 
 function initialize() {
 	reels = [0, 0, 0];
-
 	firstColour.style.backgroundColor = "#ffffff";
 	secondColour.style.backgroundColor = "#ffffff";
 	thirdColour.style.backgroundColor = "#ffffff";
-
 	winCount = 0;
 	coins = 10;
 	coinCount.textContent = `x ${coins}`;
@@ -79,7 +77,7 @@ function randomizer() {
 }
 
 function spin() {
-	drumAudioEl.volume = 0.03;
+	drumAudioEl.volume = 0.02;
 	drumAudioEl.currentTime = 3.25;
 	drumAudioEl.play();
 	let spinInterval = setInterval(function () {
@@ -92,10 +90,6 @@ function spin() {
 		ringAudioEl.play();
 		clearInterval(spinInterval);
 	}, 1000);
-	setTimeout(function () {
-		ringAudioEl.currentTime = 0;
-		ringAudioEl.pause();
-	}, 2000);
 }
 
 function spin1() {
@@ -109,10 +103,6 @@ function spin1() {
 		ringAudioEl.play();
 		clearInterval(spinInterval);
 	}, 2000);
-	setTimeout(function () {
-		ringAudioEl.currentTime = 0;
-		ringAudioEl.pause();
-	}, 4000);
 }
 
 function spin2() {
@@ -128,10 +118,6 @@ function spin2() {
 		checkWin();
 		render();
 	}, 3000);
-	setTimeout(function () {
-		ringAudioEl.currentTime = 0;
-		ringAudioEl.pause();
-	}, 4000);
 }
 
 function render() {
@@ -145,10 +131,11 @@ function render() {
 
 function checkWin() {
 	if (reels[0] === reels[1] && reels[0] === reels[2]) {
+		// if (true) {
 		winCount++;
 		coins += 5;
-		winAudioEl.volume = 0.2;
-		winAudioEl.currentTime = 0.25;
+		winAudioEl.volume = 0.1;
+		winAudioEl.currentTime = 1;
 		winAudioEl.play();
 		winMessage.style.display = "block";
 	}

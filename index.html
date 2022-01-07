@@ -10,7 +10,7 @@
 </head>
 <body>
     <img class = "game-title" src="images/game-name.png">
-    <div class="container">
+    <div class="coin-win-container">
         <img src = "images/coin.png">
         <div class="coin-info" id="coins"> </div>
         <img src = "images/wins.png">
@@ -18,11 +18,13 @@
     </div>
     <h3 id="win-message">You won!</h3>
     <h3 id="lose-message">You're done.</h3>
-    <table id="display">
+    <div class="display-container">
+    <table class="display">
             <td id="colour1" class="reel"></td>
             <td id="colour2" class="reel"></td>
             <td id="colour3" class="reel"></td>
     </table>
+    </div>
     <table class="button-row">
             <td><button id="reset">Reset</button</td>
             <td><button id="lever">Spin</button></td>
