@@ -131,7 +131,6 @@ function render() {
 
 function checkWin() {
 	if (reels[0] === reels[1] && reels[0] === reels[2]) {
-		// if (true) {
 		winCount++;
 		coins += 5;
 		winAudioEl.volume = 0.1;
