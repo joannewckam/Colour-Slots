@@ -69,11 +69,11 @@ function initialize() {
 
 function randomizer() {
 	let randomColour = Math.floor(Math.random() * 5 + 1);
-	if (randomColour === 1) return "#FF9AA2";
-	if (randomColour === 2) return "#FFDAC1";
-	if (randomColour === 3) return "#E2F0CB";
-	if (randomColour === 4) return "#B5EAD7";
-	if (randomColour === 5) return "#C7CEEA";
+	if (randomColour === 1) return "#FF9AA2"; //pink
+	if (randomColour === 2) return "#FFDAC1"; //orange
+	if (randomColour === 3) return "#E2F0CB"; //green
+	if (randomColour === 4) return "#B5EAD7"; //blue
+	if (randomColour === 5) return "#BAABDA"; //purple
 }
 
 function spin() {
