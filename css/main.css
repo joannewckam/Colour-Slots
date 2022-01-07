@@ -22,18 +22,10 @@ body {
 	height: 200px;
 	width: auto;
 }
-.display-container {
-	/* display: table;
-	display: block; */
-	display: inline-block;
-	overflow: scroll;
-	/* width: 300px; */
-	/* overflow-x: auto;
-	overflow-y: hidden; */
-}
 .display {
 	height: 200px;
-	width: 600px;
+	width: 100%;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	word-break: break-all;
