@@ -18,14 +18,11 @@ body {
 .coin-info {
 	margin-right: 20px;
 }
-
 .game-title {
 	height: 200px;
 	width: auto;
 }
 #display {
-	/* border: 10px solid slategray;
-  border-radius: 10%; */
 	height: 200px;
 	width: 600px;
 	margin-left: auto;
@@ -64,7 +61,6 @@ button {
 button:hover {
 	background-color: #add8e6;
 }
-
 button:disabled {
 	background-color: #fff8f3;
 	cursor: auto;
