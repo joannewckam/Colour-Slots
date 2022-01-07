@@ -1,10 +1,8 @@
-Colour Slot Machine Game
+COLOUR SLOT MACHINE GAME
 
-The goal of the game is to generate three matching colours to win. User will click the spin button that will generate three random colours. User wins when three colours match. User loses when coins run out without a win.
+The goal of the game is to generate three matching colours to win. Player will click the spin button that will generate three random colours. Player wins when three colours match. Player loses when coins run out without a win.
 
-<img src="images/Start-screen.png">
-<img src="images/Win-screen.png">
-<img src="images/Loss-screen.png">
+<img src="images/win-start-lose.png">
 
 TECHNOLOGIES USED:
 Javascript, HTML, CSS
