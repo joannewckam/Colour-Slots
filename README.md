@@ -9,7 +9,7 @@ Javascript, HTML, CSS
 
 GETTING STARTED:
 <br>
-<a href="https://joannewckam.github.io/firstGAproject">Demo</a>
+<a href="https://joannewckam.github.io/Colour-Slots/">Demo</a>
 
 CHALLENGES:
 
